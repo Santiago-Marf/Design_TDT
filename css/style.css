@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Damion|Grenze|Kaushan+Script|Signika&display=swap');
 *
 {
     font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
 }
-
+body
+{
+    background: transparent !important;
+}
 /* outline:none; */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .nav-bg-transparent
@@ -66,7 +70,7 @@
 /* Navbar animation */  
 .navbar
 {
-    z-index: 1;
+    z-index: 5;
     /* background: rgba(110, 170, 135, 0.3); */
     /* border-bottom: 3px solid #30497B; */
 }
@@ -117,6 +121,44 @@
 {
     width: 100%;
     height: 100vh;
+}
+.banner .banner-contents
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+.banner .banner-contents .banner-title
+{
+    padding: 5px;
+    width: 60%;
+    margin: 0px 0px 5px 0px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 3px #212f3c;
+}
+.banner .banner-contents .banner-title h1
+{
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Damion', cursive;
+}
+.banner .banner-contents .banner-p
+{
+    padding: 5px;
+    width: 60%;
+    margin: 5px 0px 0px 0px;
+    border-radius: 5px;
+    text-shadow: 2px 2px 3px #212f3c;
+}
+.banner .banner-contents .banner-p p
+{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Damion', cursive;
 }
 .banner .banner-img
 {
@@ -219,7 +261,7 @@ section article .title-card
 }
 section article .title-card .txt-h1
 {
-    background-image: linear-gradient(to top, #30497b, #394c80, #435085, #4c538a, #55568f);    
+    background-image: linear-gradient(to top, #30497b, #394c80, #435085, #4c538a, #55568f);
     color: #ffffff;
     width: 60%;
     text-align: center;
@@ -238,8 +280,18 @@ section article .section-cards
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 footer
 {
-    background: #212F3C;
-    padding: 50px;
+    /* background: #212F3C; */
+    background-image: linear-gradient(to bottom, #212f3c, #202e3b, #1f2d3a, #1e2c39, #1d2b38);
+    padding: 50px 100px 0px 100px;
+}
+footer .footer-hr
+{
+    background: #30497b;
+    padding: 0.5px;
+    border-radius: 5px;
+}
+footer .footer-title
+{
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
