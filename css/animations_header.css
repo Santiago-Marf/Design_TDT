@@ -9,8 +9,8 @@
   }
   .circle {
     background-color: transparent;
-    height: 120px;
-    width: 50px;
+    height: 0px;
+    width: 30px;
     display: block;
     border: 5px solid #ffffff;
     border-radius: 100px;
@@ -33,12 +33,12 @@
     -webkit-animation-play-state:running;
   }
   .fa {
-    font-size: 40px;
+    font-size: 20px;
     color: #ffffff;
     bottom: 27px;
     position: absolute;
     left: 50%;
-    margin-left: -18px;
+    margin-left: -8.5px;
     animation-name:arrow;
     animation-duration:1s;
     animation-timing-function:linear;
@@ -60,12 +60,12 @@
     border-radius: 100px;
     position: absolute;
     left: -12px;
-    top: 5px;
+    top: 45px;
     z-index: 1;
     background-color: transparent;
     opacity: 0;
-    width: 75px;
-    height: 110px;
+    width: 53px;
+    height: 70px;
     border: 10px solid #ffffff;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
@@ -80,32 +80,32 @@
   @keyframes arrow
       {
       0%   {bottom:0;}
-      75% {bottom:90px;}
+      75% {bottom:45px;}
       100% {bottom:0;}
       }
   @-webkit-keyframes arrow
       {
       0%   {bottom:0;}
-    75% {bottom:90px;}
+      75% {bottom:45px;}
       100% {bottom:0;}
     }
   @keyframes circle
       {
-      0%   {height:120px;}
-      10% {height: 120px;}
-    50% {height: 130px;}
-      75% {height: 150px;}
-    90% {height: 130px;}
-      100% {height: 120px;}
+      0%   {height:70px;}
+      10% {height: 70px;}
+      50% {height: 80px;}
+      75% {height: 90px;}
+      90% {height: 80px;}
+      100% {height: 70px;}
       }
   @-webkit-keyframes circle
       {
-      0%   {height:120px;}
-      10% {height: 120px;}
-    50% {height: 130px;}
-      75% {height: 150px;}
-    90% {height: 130px;}
-      100% {height: 120px;}
+      0%   {height:70px;}
+      10% {height: 70px;}
+      50% {height: 80px;}
+      75% {height: 90px;}
+      90% {height: 80px;}
+      100% {height: 70px;}
       }
   @-webkit-keyframes pulse {       
     0% {-webkit-transform: scale(0); opacity: 0;}

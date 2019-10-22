@@ -1,7 +1,7 @@
 "use strict";
 
 (function ($) {
-  var SCROLLING_NAVBAR_OFFSET_TOP = 200;
+  var SCROLLING_NAVBAR_OFFSET_TOP = 250;
   $(window).on('scroll', function () {
     var $navbar = $('.navbar');
 
