@@ -18,14 +18,67 @@ section article .title-card .txt-h1
     border-radius: 50px;
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-span
+.card-prices
 {
-    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+}
+
+.card-prices .text-title
+{
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: #ffffff;
+    background: #B71C1C;
+}
+
+/* ---------------------------------------------- */
+
+.card-title-hr
+{
+    background: #30497b;
+    border: 1px solid #30497b;
+    padding: 0;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.card-hours-hr
+{
+    background: #30497b;
+    border: 2px solid #30497b;
+    padding: 0;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+.text-hours
+{
+    background: #30497b;
+    padding: 3px 6px;
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+    border-radius: 50px;
+}
+
+/* ---------------------------------------------- */
+
+.title-cards .cards-title,
+.cards-hours
+{
+    margin: 0;
+    padding: 0;
+    color: #30497b;
 }
 
 .card:hover
 {
     box-shadow: 3px 3px 12px #212F3C;
+    border: none;
 }
 
 .card
@@ -33,7 +86,7 @@ span
     cursor: pointer;
     transition: all 0.5s ease-out;
 	background: #ffffff;
-    border: 4px;
+    border: none;
     border-radius: 5px;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
@@ -54,57 +107,29 @@ span
 	display: block;
 }
 
-.card-img span
+.cards-btn
 {
-	position: absolute;
-    top: 15%;
-    left: 12%;
-    padding: 6px;
-    color: #fff;
-    font-size: 12px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
 }
-.card-img span h4
+.cards-btn .btn-card:hover
 {
-        font-size: 12px;
-        margin:0;
-        padding:10px 5px;
-         line-height: 0;
+    background-image: linear-gradient(to top, #145a32, #17693a, #1b7943, #1e894b, #229954);
+    padding: 10px 27px;
+    border-radius: 50px;
+    border: 3px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #ffffff !important;
 }
 
-.btn-card
+.cards-btn .btn-card
 {
-	background-color: #1ABC9C;
-	color: #fff;
-	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
-    padding: .84rem 2.14rem;
-    font-size: .81rem;
-    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
-    margin: 27%;
-    border: 0;
-    -webkit-border-radius: .125rem;
-    border-radius: .125rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    white-space: normal;
-    word-wrap: break-word;
-    color: #fff;
-}
-.btn-card:hover
-{
-    background: orange;
-}
-a.btn-card
-{
-    text-decoration: none;
-    color: #fff;
+    padding: 7px 27px;
+    background: #ffffff;
+    font-weight: bold;
+    color: #229954 !important;
+    border: 3px solid #229954;
+    letter-spacing: 1px;
+    border-radius: 50px;
 }

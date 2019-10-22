@@ -7,14 +7,18 @@
 	-webkit-text-fill-color: transparent;
 }
 
+
 .single_portfolio_text{
 	display:inline-block;
-	padding:0;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 20px 0px;
 	position:relative;
 	overflow:hidden;
+	/* background: #FF512F; */
 }
 .single_portfolio_text img{
 	width:100%;
+	height: 100%;
 	border-radius: 4px;
 }
 
@@ -26,7 +30,7 @@
 .portfolio_images_overlay{
 	width: 90%;
 	height: 90%;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.7);
 	padding: 20px;
 	margin: 0 auto;
 	top: -100%;
@@ -48,12 +52,13 @@
 	padding-bottom: 10px;
 }
 
-/* .zoom{
-	width: 190px;
-    height: 200px;
+.zoom{
+	width: 100px;
+    height: 100px;
     position: absolute;
-    bottom: -100px;
-    right: -100px;
+    bottom: -60px;
+	right: -60px;
+	left: 150px;
     border-radius: 50%;
 
 	background: #FF512F;
@@ -65,13 +70,13 @@
 .zoom:before {
 	content: "\f00e";
     font-family: FontAwesome;
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
     padding-right: 20px;
     position: absolute;
-    top: 10px;
-    left: 30px;
-} */
+    top: 0px;
+    left: 35px;
+}
 
  @media (min-width:769px) and (max-width:991px) {
 	.portfolio_images_overlay {
